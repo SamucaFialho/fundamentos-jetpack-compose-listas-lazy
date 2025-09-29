@@ -24,3 +24,5 @@
 1. Clone este repositório:
    ```bash
    git clone https://github.com/samucafialho/fundamentos-jetpack-compose-listas-lazy.git
+2. Abra o projeto no Android Studio.
+3. Execute em um emulador ou dispositivo físico Android.
