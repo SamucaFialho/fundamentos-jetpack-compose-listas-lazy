@@ -1,9 +1,11 @@
 package samucafialho.com.github.fundamentos_jetpack_compose_listas_lazy
 
 import android.os.Bundle
+import android.os.PersistableBundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -22,6 +24,7 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.State
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -45,7 +48,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             FundamentosjetpackcomposelistaslazyTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(
+                    modifier = Modifier.fillMaxSize()
+                ) { innerPadding ->
                     GamesScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
@@ -87,7 +92,7 @@ fun GamesScreen(modifier: Modifier = Modifier) {
             Spacer(modifier = Modifier.height(8.dp))
             Button(
 
-                onCLick = {
+                onClick = {
                     searchTextState = ""
                     gamesListState = getAllGames()
                 },
