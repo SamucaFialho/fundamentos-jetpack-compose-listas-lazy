@@ -20,7 +20,7 @@
 
 
 ### Botão "Limpar filtro"
-<img src="/src/main/java/samucafialho/com/github/fundamentos_jetpack_compose_listas_lazy/images/videolimparfiltro-ezgif.com-optimize.gif" width="200">
+<img src="app/src/main/java/samucafialho/com/github/fundamentos_jetpack_compose_listas_lazy/images/videolimparfiltro-ezgif.com-optimize.gif" width="200">
 
 ## Como executar
 1. Clone este repositório:
