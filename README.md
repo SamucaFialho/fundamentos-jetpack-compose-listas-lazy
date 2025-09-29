@@ -12,7 +12,8 @@
 
 ## Telas do aplicativo
 ### Tela inicial (lista completa)
-<img src="/src/main/java/samucafialho/com/github/fundamentos_jetpack_compose_listas_lazy/images/Primeira_tela_listas_jetpackcompose.png" width="300">
+<img src="app/src/main/java/samucafialho/com/github/fundamentos_jetpack_compose_listas_lazy/images/Primeira_tela_listas_jetpackcompose.png" width="300">
+
 
 ### Filtro aplicado
 <img src="[/src/main/java/samucafialho/com/github/fundamentos_jetpack_compose_listas_lazy/images/filtroaplicado.png](https://github.com/SamucaFialho/fundamentos-jetpack-compose-listas-lazy/blob/main/app/src/main/java/samucafialho/com/github/fundamentos_jetpack_compose_listas_lazy/images/filtroaplicado.png)" width="300">
